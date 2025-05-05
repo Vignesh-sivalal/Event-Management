@@ -1,0 +1,461 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* CSS Document */
+* {
+     margin: 0;
+     padding: 0;
+}
+body {
+     font-family: "poppins", sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+#wrapper {
+     width: 100%;
+     color: #fff;
+     margin: 0 auto;
+}
+
+/*homesection*/
+
+.bg img {
+/*     width: 1536px;*/
+    width: 100%;
+/*     height: 776px;*/
+     position: relative;
+    margin-bottom: 50px;
+}
+
+#header {
+    position: absolute;
+    width: 1336px;
+/*    background-color: aqua;*/
+    top: 30px;
+    left: 100px;
+}
+.headLogo{
+    float: left;
+    clear: right;
+}
+.headLogo img{
+    width: 200px;
+}
+.options {
+     float: right;
+     margin-top: 11px;
+}
+.options li {
+     list-style: none;
+     float: left;
+     margin: 0px 0px 0px 30px;
+}
+.options li a {
+     text-decoration: none;
+     color: #fff;
+}
+.welcomeText {
+    position: absolute;
+    top: 360px;
+    left: 270px;
+    color: #D9B4A7;
+    font-family: "scotch display", "serif";
+    font-size: 22px;
+}
+
+/*portfolioworkssection*/
+
+#section{
+    position:relative;
+    height: 313px;
+    width: 100%;
+    margin-bottom: 50px;
+/*    background: #4F1B1C;*/
+}
+#section .portfolioBg{
+    width: 100%;
+}
+.portfolioText {
+    position: absolute;
+    bottom: 100px;
+    left: 530px;
+    font-size: 60px;
+    color: #f2f2f2;
+    font-family: "scotch display", "serif";
+}
+#portfolioWorks {
+     height: 475px;
+/*         background: #EF2D30;*/
+     width: 1760px;
+     padding-left: 20px;
+    margin-bottom: 50px;
+}
+.card {
+     margin-right: 20px;
+     float: left;
+     width: 420px;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     font-family: sans-serif;
+     background-color: #fff;
+}
+.card img {
+     width: 100%;
+     display: block;
+     border-radius: 5px 5px 0px 0px;
+}
+.card-title {
+     font-family: "scotch display", "serif";
+     font-weight: normal;
+     padding: 15px;
+     font-size: 20px;
+     color: #202020;
+}
+
+/*ourworkssection*/
+
+#sectionTwo{
+    position:relative;
+    height: 316px;
+    width: 100%;
+    margin-bottom: 50px;
+/*    background: #4F1B1C;*/
+}
+#sectionTwo .portfolioBgTwo{
+    width: 100%;
+}
+.portfolioTextTwo {
+    position: absolute;
+    bottom: 100px;
+    left: 530px;
+    font-size: 60px;
+    color: #f2f2f2;
+    font-family: "scotch display", "serif";
+}
+
+/*previouscardssection*/
+
+#previousWorks {
+     /*    background: #EF2D30;*/
+     width: 1320px;
+    height: 983px;
+    margin-bottom: 50px;
+    padding: 0px 100px 0px 100px;
+}
+.card {
+     margin-bottom: 40px;
+     float: left;
+     width: 420px;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     font-family: "scotch display", "serif";
+     background-color: #fff;
+}
+.card img {
+     width: 100%;
+     display: block;
+     border-radius: 5px 5px 0px 0px;
+}
+.card-title {
+     font-family: "scotch display", "serif";
+     padding: 15px;
+     font-size: 20px;
+     color: #202020;
+}
+
+/*viewmorebuttonsection*/
+
+#button{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.viewMoreBtn {
+  border: none;
+  border-radius: 30px;
+  background-color: #856134;
+  padding: 15px 50px;
+  color: #f2f2f2;
+  font-size: 27px;
+  font-family: "scotch display", "serif";
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2 );
+}
+
+/*overviewsection*/
+
+#overview {
+     height: 120px;
+     width: 1320px;
+    padding: 0px 100px 0px 100px;
+     display: flex;
+    justify-content: space-around;
+/*    background-color: aqua;*/
+     text-align: center;
+    margin-bottom: 70px;
+}
+.statnumber {
+     font-size: 55px;
+     font-weight: bold;
+     color: #856134;
+     font-family: "poppins", "sans-serif";
+}
+.statlabel {
+     font-size: 25px;
+     color: #202020;
+     font-family: "poppins""sans-serif";
+}
+
+/*reviewsection*/
+
+#reviews {
+     position: relative;
+    left: 215px;
+     width: 1095px;
+     height: 315px;
+     border-radius: 10px;
+     color: #202020;
+     text-align: center;
+     background-color: #d0c1ae;
+    margin-bottom: 70px;
+}
+.client {
+     width: 115px;
+     border-radius: 60px;
+     margin-top: 30px;
+}
+#reviews .name {
+     font-weight: bold;
+     font-family: "scotch display", "serif";
+     font-size: 20px;
+     margin: 10px 0px 15px 0px;
+}
+#reviews .content {
+     font-size: 20px;
+}
+#reviewButton .leftSide{
+    position: absolute;
+    left: 10px;
+    bottom: 140px;
+    cursor: pointer;
+}
+#reviewButton .rightSide{
+    position: absolute;
+    right: 10px;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+/*aboutsection*/
+
+#aboutUs {
+     font-size: 20px;
+     color: #202020;
+     /*        background-color: aqua;*/
+     width: 1095px;
+    padding: 0px 216px 0px 216px;
+    margin-bottom: 50px;
+}
+#aboutUs h4 {
+     color: #856134;
+     text-align: center;
+     font-size: 50px;
+     font-family: "scotch display", "serif";
+}
+.tagline {
+     text-align: center;
+     color: #856134;
+}
+
+/*footersection*/
+
+#footer {
+    position: relative;
+     width: 100%;
+     height: 750px;
+     background: #a2845e;  
+}
+.section1{
+    width: 1320px;
+    height: 320px;
+/*    background-color: aqua;*/
+     margin: 0 auto;      
+}
+.footerLogo img{
+     margin-top: 40px;
+     width: 215px;
+}
+.footerTagline {
+     font-size: 19px;
+    width: 100%;
+}
+
+/*footerquotesection*/
+
+.footerBottomText{
+    float: right;
+    margin-top: 60px;
+}
+.footerQuote {
+     text-align: right;
+     font-size: 55px;
+     font-family: "scotch display", "serif";
+     font-weight: bold;
+}
+
+/*addresssection*/
+
+#locations{
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+}
+.allAddress{
+    width: 1096px;
+    height: 60px;
+/*    background-color: aquamarine;*/
+    margin: 0 auto;
+}   
+.address{
+    float: left;
+    border-right: 2px solid #fff;
+    height: 60px;
+    align-content: center;
+    column-gap: 20px;
+}
+    
+.address p{
+     padding: 0px 20px 0px 20px; 
+}
+.Third{
+    border-right: 0px solid #5B5B5B!important;
+}
+    
+.address .Third p{
+    padding-left: 20px;
+    padding-right: 20PX;
+}
+
+/*condactsection*/
+ 
+#footerCallMail {
+     width: 100%;
+     color: white;
+     padding: 40px 0;
+}
+.footerContacts {
+    margin: 0 auto;
+    height: 70px;
+    width: 1317px;
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+    border-top: 2px solid #e4dccc;
+     border-bottom: 2px solid #e4dccc;
+}
+.footerContactOptions {
+     display: flex;
+     align-items: center;
+     font-size: 20px;
+}
+.footerContactOptions ul li {
+     list-style: none;
+}
+.footerContactOptions li .call {
+     background-position: 13px 6px;
+}
+.footerContactOptions li .mail {
+     background-position: -66px 4px;
+}
+.footerContactOptions li a {
+     width: 45px;
+     height: 40px;
+     background: url("images/ph-email.png")no-repeat;
+     display: block;
+}
+.footerContactOptions p {
+     margin-left: 10px;
+}
+
+/*socialmediasection*/
+
+#footerSocialicons {
+     width: 100%;
+    height: 80px;
+/*    background-color: aqua;*/
+}
+.sites {
+     width: 400px;
+    margin: 0 auto;
+/*    background-color: aquamarine;*/
+}
+.siteIcons ul li {
+     list-style: none;
+     float: left;
+}
+.siteIcons li a {
+     margin: 20px;
+     height: 40px;
+     width: 40px;
+     background: url("images/Site-icons.png")no-repeat;
+     display: block;
+}
+.siteIcons li .instagram {
+     background-position: 0px -55px;
+}
+.siteIcons li .youtube {
+     background-position: 0px -105px;
+}
+.siteIcons li .facebook {
+     background-position: 0px -156px;
+}
+.siteIcons li .x {
+     background-position: 0px -210px;
+}
+
+/*copyrightssection*/
+
+#rights{
+    width: 100%;
+        margin: 20px 0px;
+/*    background-color: aqua;*/
+}
+
+.copyright {
+    margin: 0 auto;
+     width: 438px;
+     font-size: 16px;
+}
+
+/*fixedbutton*/
+
+#fixedCondact {
+    bottom: 50px;
+    right: 50px;
+  position: fixed;
+  z-index: 1;
+/*  background: #eee;*/
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
